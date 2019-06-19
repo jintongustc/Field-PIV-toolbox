@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install MATLAB 2018a, may need image processing toolbox.
+Install MATLAB 2018a, may need image processing toolbox. Will try to make Octave works on the toolbox
 
 To call the functions
 
@@ -45,6 +45,8 @@ End with an example of getting some data out of the system or using it for a lit
   Run test_piv.m. The result of the script is expected to plot the PIV image with velocity vector ploted on it.
   
 * test turbulent 
+
+  Run test_turb.m There will be a figure with subplot on it. 
 
 ### Break down into end to end tests
 
