@@ -19,10 +19,20 @@ To call the functions
 
 ```
 [u,v] = lakepiv(A,B,[40,40],[100,1800,100,800])
+```
+To store the data, we can do matlab structure
+```
 velocities(i).u = u;
 velocities(i).v = v;
 
 ```
+Or more Python friendly, 3D matrix
+```
+[u,v] = lakepiv(A,B,[40,40],[100,1800,100,800])
+U(:,:,i) = u;
+W(:,:,i) = w;
+```
+
 
 ### Installing
 
