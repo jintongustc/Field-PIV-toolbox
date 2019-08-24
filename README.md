@@ -86,5 +86,5 @@ Free for any personal or research use
 ## Acknowledgments
 
 * Dissipation rate estimation by Large eddy method and direct method(Sheng 2000, Doron 2001)
-* Median test method and normalized median test method for removing outliar(Westerweel 1994, 2005)
+* Median test method and normalized median test method for removing outlier(Westerweel 1994, 2005)
 * etc
