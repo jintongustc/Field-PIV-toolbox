@@ -1,5 +1,9 @@
 # Field-PIV-toolbox
 
+My current research is related in apply the PIV in field work, that's why the name is field PIV toolbox. The toolbox could be applied in any PIV applications.
+
+The main purpose of the toolbox is for PIV turbulence analysis, the 
+
 Image process PIV image and estimate turbulence parameters. The toolbox will include two parts: 
 1) PIV calculation 
 2) Turbulence toolbox.
