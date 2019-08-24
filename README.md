@@ -76,7 +76,8 @@ Give an example
 
 ## Authors
 
-* **Tong Jin**
+* **Tong Jin** Ph.D. Candinate in University of Wisconsin, Milwaukee
+* Research: Ocean Science, Fluid mechanics, Turbulence
 
 ## License
 
