@@ -1,4 +1,4 @@
-function[u,w,perc] =  med_test(u,w)
+function[u,w,indx] =  med_test(u,w)
 % EXAMPLE:
 % load sample_vel
 % for i  = 1:size(uu,3)
@@ -15,7 +15,8 @@ Thr = 2;  % The Threshold
 eps = 0.1; % estimated measurement noise level
 u = padarray(u,[2 2],'symmetric','both');
 w = padarray(w,[2 2],'symmetric','both');
-perc = 0;
+t = 1;
+indx = [];
 for i = 3:m+2
     for j = 3:n+2
         
@@ -38,14 +39,16 @@ for i = 3:m+2
         if valu*valv == 0
             u(i,j) = um;
             w(i,j) = wm;
-            perc=perc+1;
+            indx(t,1) = i;
+            indx(t,2) = j;
+            t=t+1;
         end
     end
 end
 
 u = u(3:end-2,3:end-2);
 w = w(3:end-2,3:end-2);
-perc = perc/m/n;       % The prob of vecter replaced
+
 
 end
 
