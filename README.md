@@ -1,8 +1,8 @@
 # Field-PIV-toolbox
 
-My current research is related in apply the PIV in field work, that's why the name is field PIV toolbox. The toolbox could be applied in any PIV applications.
+##Object
 
-The main purpose of the toolbox is for PIV turbulence analysis, the 
+The main purpose of the toolbox is for PIV turbulence analysis, there's no open-source turbulent analysis toolbox for PIV data. I want to share some ideas of turbulent analysis in this toolbox.  
 
 Image process PIV image and estimate turbulence parameters. The toolbox will include two parts: 
 1) PIV calculation 
@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install MATLAB 2018a, may need image processing toolbox. Will try to make Octave works on the toolbox
+Install MATLAB 2018a, may need image processing toolbox. 
 
 To call the functions
 
@@ -70,13 +70,7 @@ Compare the dissipation rate method, the different methods comparison live scrip
 Here should be a example later
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Authors
 
@@ -91,4 +85,5 @@ Free for any personal or research use
 
 * Dissipation rate estimation by Large eddy method and direct method(Sheng 2000, Doron 2001)
 * Median test method and normalized median test method for removing outlier(Westerweel 1994, 2005)
+* Application of large scale PIV in river surface turbulence measurements and water depth estimation(Jin 2019)
 * etc
